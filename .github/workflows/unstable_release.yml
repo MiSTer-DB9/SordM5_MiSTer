@@ -62,7 +62,7 @@ jobs:
           exit 0
         fi
         echo "skip_quartus=false" >> "$GITHUB_OUTPUT"
-        matrix=$(./.github/emit_matrix.sh 'SordM5' 'sordM5.qpf' 'output_files/SordM5.rbf')
+        matrix=$(./.github/emit_matrix.sh 'SordM5' 'sordM5.qpf' 'output_files/sordM5.rbf')
         echo "matrix=${matrix}" >> "$GITHUB_OUTPUT"
         echo "Matrix: ${matrix}"
 
