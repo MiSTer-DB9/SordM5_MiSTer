@@ -85,7 +85,7 @@ jobs:
         echo "build_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
         echo "date_stamp=$(date -u +%Y%m%d)" >> "$GITHUB_OUTPUT"
         echo "timestamp=$(date -u +%Y%m%d_%H%M)" >> "$GITHUB_OUTPUT"
-        matrix=$(./.github/emit_matrix.sh 'SordM5' 'sordM5.qpf' 'output_files/SordM5.rbf')
+        matrix=$(./.github/emit_matrix.sh 'SordM5' 'sordM5.qpf' 'output_files/sordM5.rbf')
         echo "matrix=${matrix}" >> "$GITHUB_OUTPUT"
         echo "Matrix: ${matrix}"
 

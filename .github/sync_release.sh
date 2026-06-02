@@ -17,7 +17,7 @@ UPSTREAM_CORE_NAME=(SordM5)
 MAIN_BRANCH="main"
 UPSTREAM_BRANCH="main"
 COMPILATION_INPUT=(sordM5.qpf)
-COMPILATION_OUTPUT=(output_files/SordM5.rbf)
+COMPILATION_OUTPUT=(output_files/sordM5.rbf)
 
 # fork-only cores have no upstream; sync_release is a no-op
 if [[ -z "${UPSTREAM_REPO}" ]]; then
